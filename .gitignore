@@ -1,0 +1,5 @@
+config/
+vendor/
+index.php
+notes.txt
+.env

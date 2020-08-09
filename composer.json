@@ -1,0 +1,19 @@
+{
+    "name": "pantheion/helpers",
+    "description": "Helpers",
+    "authors": [
+        {
+            "name": "Pedro Miguel",
+            "email": "pedro.aos19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "pantheion/engine": "dev-master"
+    }
+}
