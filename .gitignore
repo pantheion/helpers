@@ -3,3 +3,4 @@ vendor/
 index.php
 notes.txt
 .env
+composer.lock

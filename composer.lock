@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "3717a20f9e539fb4c937d4db1fa5d86f8e9fbc4c"
+                "reference": "e116b017a0b47f7ce1da8de62bc92804d4a07945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/3717a20f9e539fb4c937d4db1fa5d86f8e9fbc4c",
-                "reference": "3717a20f9e539fb4c937d4db1fa5d86f8e9fbc4c",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/e116b017a0b47f7ce1da8de62bc92804d4a07945",
+                "reference": "e116b017a0b47f7ce1da8de62bc92804d4a07945",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-13T22:09:35+00:00"
+            "time": "2020-08-08T17:12:10+00:00"
         },
         {
             "name": "hassankhan/config",
@@ -127,12 +127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/engine.git",
-                "reference": "f7c3dde78a6fd9079db931d94635f1fbc112510c"
+                "reference": "eddc2197df2f90a673780075e40a88285e6e9aba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/engine/zipball/f7c3dde78a6fd9079db931d94635f1fbc112510c",
-                "reference": "f7c3dde78a6fd9079db931d94635f1fbc112510c",
+                "url": "https://api.github.com/repos/pantheion/engine/zipball/eddc2197df2f90a673780075e40a88285e6e9aba",
+                "reference": "eddc2197df2f90a673780075e40a88285e6e9aba",
                 "shasum": ""
             },
             "require": {
@@ -143,10 +143,7 @@
             "autoload": {
                 "psr-4": {
                     "Pantheion\\Engine\\": ""
-                },
-                "files": [
-                    "helpers.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -156,7 +153,7 @@
                 }
             ],
             "description": "Engine base",
-            "time": "2020-08-07T19:49:45+00:00"
+            "time": "2020-08-10T11:22:56+00:00"
         },
         {
             "name": "phpoption/phpoption",
