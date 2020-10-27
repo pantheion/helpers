@@ -1,5 +1,4 @@
 <?php
 
-use Pantheion\Engine\Application;
-
 include_once 'helpers/misc.php';
+include_once 'helpers/session.php';

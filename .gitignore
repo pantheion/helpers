@@ -4,3 +4,4 @@ index.php
 notes.txt
 .env
 composer.lock
+storage/

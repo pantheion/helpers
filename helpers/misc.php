@@ -8,7 +8,7 @@ if (!function_exists('app')) {
         if (!is_null($key)) {
             return (new Application)->make($key, $params);
         }
-
+        
         return new Application;
     }
 }
