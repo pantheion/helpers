@@ -15,6 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "pantheion/engine": "dev-master",
-        "pantheion/session": "dev-master"
+        "pantheion/session": "dev-master",
+        "pantheion/http": "dev-master"
     }
 }

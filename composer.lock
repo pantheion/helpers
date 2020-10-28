@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f37b0042ed047e53ab32f4be5b587cb9",
+    "content-hash": "3ae991c6c5704da9ff709bcfd70f4877",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -804,16 +804,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/http.git",
-                "reference": "277cc47df6af9fbfddf7302df4c8ebd9ded8f197"
+                "reference": "a64843ed1d7def07083b48741e4f5635053baece"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/http/zipball/277cc47df6af9fbfddf7302df4c8ebd9ded8f197",
-                "reference": "277cc47df6af9fbfddf7302df4c8ebd9ded8f197",
+                "url": "https://api.github.com/repos/pantheion/http/zipball/a64843ed1d7def07083b48741e4f5635053baece",
+                "reference": "a64843ed1d7def07083b48741e4f5635053baece",
                 "shasum": ""
             },
             "require": {
-                "pantheion/filesystem": "dev-master"
+                "pantheion/filesystem": "dev-master",
+                "pantheion/session": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -829,7 +830,7 @@
                 }
             ],
             "description": "HTTP layer",
-            "time": "2020-10-05T23:25:56+00:00"
+            "time": "2020-10-28T20:18:51+00:00"
         },
         {
             "name": "pantheion/middleware",
@@ -1681,7 +1682,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "pantheion/engine": 20,
-        "pantheion/session": 20
+        "pantheion/session": 20,
+        "pantheion/http": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
