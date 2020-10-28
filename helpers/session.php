@@ -4,22 +4,27 @@ use Pantheion\Engine\Application;
 use Pantheion\Session\Session;
 
 if (!function_exists('session')) {
+    /**
+     * Returns the Session
+     *
+     * @return Session
+     */
     function session()
     {
         return app(Session::class);
     }
 }
 
-if (!function_exists('flash')) {
-    function flash(string $key, $value = null)
-    {
-        return session()->flash($key, $value);
-    }
-}
-
 if (!function_exists('old')) {
-    function old(string $key, $value = null)
+    /**
+     * Returns values from the old input
+     *
+     * @param string $key
+     * @param $default
+     * @return mixed
+     */
+    function old(string $key, $default = null)
     {
-        return session()->old($key, $value);
+        return session()->getOldInput($key, $default);
     }
 }

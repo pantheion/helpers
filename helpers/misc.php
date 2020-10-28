@@ -3,6 +3,14 @@
 use Pantheion\Engine\Application;
 
 if (!function_exists('app')) {
+    /**
+     * Returns the Application instance
+     * or some instance from the container
+     *
+     * @param string $key
+     * @param array $params
+     * @return Application|mixed
+     */
     function app(string $key = null, array $params = [])
     {
         if (!is_null($key)) {
@@ -29,6 +37,12 @@ if (!function_exists('env')) {
 }
 
 if (!function_exists('dd')) {
+    /**
+     * Dies and dumps the var
+     *
+     * @param $var
+     * @return void
+     */
     function dd($var)
     {
         die(var_dump($var));

@@ -941,12 +941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/session.git",
-                "reference": "a5407862cefa412ba92ac46a9f238b7c5f219cf8"
+                "reference": "383db2efe605a98bd728cfdaf7fb71f9e1dcdab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/session/zipball/a5407862cefa412ba92ac46a9f238b7c5f219cf8",
-                "reference": "a5407862cefa412ba92ac46a9f238b7c5f219cf8",
+                "url": "https://api.github.com/repos/pantheion/session/zipball/383db2efe605a98bd728cfdaf7fb71f9e1dcdab9",
+                "reference": "383db2efe605a98bd728cfdaf7fb71f9e1dcdab9",
                 "shasum": ""
             },
             "require": {
@@ -967,7 +967,7 @@
                 }
             ],
             "description": "Session handler package",
-            "time": "2020-10-27T10:40:34+00:00"
+            "time": "2020-10-28T17:19:38+00:00"
         },
         {
             "name": "pantheion/utils",
